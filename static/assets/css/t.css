@@ -26,7 +26,7 @@ body {
    border: none;
    background: none;
    font-size: 12px;
-   color: var(--text-primary);
+   color: var(--text-dark);
    cursor: pointer;
    transition: color 0.3s ease;
    width: 20px;
@@ -41,7 +41,7 @@ body {
    right: 0;
    height: 2.5em;
    padding: 0 25px;
-   background: var(--background-color);
+   background:blue;
    box-sizing: border-box;
    transition: 0.35s ease;
    z-index: 100;
@@ -132,23 +132,25 @@ body {
 }
 
 .bar {
-   height: 20px;
-   background: none;
-   border: none;
-   color: var(--text-primary);
+   height: 18px;
+   background:var(--text-primary);
+   border:var(--text-dark);
+   color:white;
    width: 60vw;
-   height: 30px;
+   height: 26px;
    border-radius: 5px;
    margin: 0 auto;
    transition: 0.3s;
+   box-shadow: white;
 }
 
 .bar:focus {
-   background: var(--background-input);
-   box-shadow: none;
+   background:var(--text-dark);
+   box-shadow:black;
    outline: none;
-   color: var(--text-primary);
+   color:var(--text-primary);
    transition: 0.3s;
+   
 }
 
 .navpost {
@@ -191,8 +193,8 @@ p {
 #add-tab {
    padding: 0.5rem;
    cursor: pointer;
-   background-color: var(--background-settings);
-   color: var(--text-primary);
+   background-color:white;
+   color:var(--text-dark);
    border: none;
    border-radius: 5px;
    margin-right: 0.5rem;
@@ -200,7 +202,8 @@ p {
 }
 
 #add-tab:hover {
-   background-color: var(--tab-active-background);
+   background-color:blue;
+   color:var(--text-primary);
 }
 
 ul {
@@ -211,7 +214,7 @@ ul {
 
 li {
    padding: 0.4rem;
-   background-color: var(--background-settings);
+   background-color: var(--tab-inactive-background);
    margin-right: 0.5rem;
    cursor: pointer;
    border-radius: 5px;
@@ -219,14 +222,17 @@ li {
    display: flex;
    align-items: center;
    justify-content: center;
+   color:black;
 }
 
 li.active {
    background-color: var(--tab-active-background);
+   color:black;
 }
 
 li:hover {
    background-color: var(--tab-active-background);
+   color:white;
 }
 
 iframe {

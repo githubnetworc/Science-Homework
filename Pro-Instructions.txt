@@ -1,0 +1,19 @@
+First, create a Github account. Then, search Interstellar and click 
+on the first search result. After that, click on the "CODE" button, 
+go to the codespaces tab, and press "Create Codespace". It will 
+take you to the codespace  with a box at the bottom of your screen,
+this box is the terminal, where you wil run commands to start your
+site. Delete all the files already in the repository and upload the 
+updated ones provided. Navigate to the "README.md" file and follow 
+the instructions entering commands into the terminal as instructed.
+Once all steps are followed, run command "pnpm run start" to start 
+the site, then go to "PORTS", beside "TERMINAL", where it will show
+you the link to your site for you to show to whoever you like. 
+To enable password protection, follow thw steps provided in the "README.md"
+file on password protection . To change UI, or display, colors, go 
+to the search bar at the top of the screen and search "Global.css", 
+in this file, you may change the colors for all UI elements.  
+Also make sure to rename the following folders and files: 
+gitignore.txt -->  .gitignore, github --> .github,
+vscode --> .vscode. The following two files are located in the 
+"node_modules" folder: bin --> .bin, pnpm --> .pnpm

@@ -31,9 +31,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (nav) {
     const themeId = localStorage.getItem("theme");
-    let LogoUrl = "/assets/media/favicon/main.png";
+    let LogoUrl = "/assets/media/favicon/classroom.png";
     if (themeId === "Inverted") {
-      LogoUrl = "/assets/media/favicon/main-inverted.png";
+      LogoUrl = "/assets/media/favicon/classroom.png";
     }
     const html = `
       <div id="icon-container">
@@ -108,6 +108,10 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   const options = {
+    Default: {
+      name: "Science Homework",
+      icon: "/assets/media/favicon/classroom.png",
+    },
     Google: { name: "Google", icon: "/assets/media/favicon/google.png" },
     "Savvas Realize": {
       name: "Savvas Realize",
@@ -292,10 +296,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "Big Ideas Math Assignment Player": {
       name: "Assignment Player",
       icon: "/assets/media/favicon/bim.ico",
-    },
-    "Big Ideas Math": {
-      name: "Big Ideas Math",
-      icon: "/assets/media/favicon/bim.ico",
+      
     },
   };
 

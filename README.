@@ -13,14 +13,6 @@
 - Tab Cloaking
 - Wide collection of apps & games
 - Clean, Easy to use UI
-- Password Protection
-- Ad-Free
-
-### Password Protection
-
-1. Go to the `config.js` file and set `challenge` to **true**. Then, set the environment variable as follows:
-2. For PNPM: Run `config=true pnpm start`, when atrting your server
-
 
 ### Server Setup
 
@@ -28,14 +20,6 @@ You must run this command in terminal to setup your server:
 
 ```bash
 git clone https://github.com/UseInterstellar/Interstellar
-cd Interstellar
-```
-#### Ad-Free Setup
-
-or this one for Ad-Free setup:
-
-```bash
-git clone --branch Ad-Free https://github.com/UseInterstellar/Interstellar
 cd Interstellar
 ```
 

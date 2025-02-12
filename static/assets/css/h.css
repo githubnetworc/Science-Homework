@@ -6,7 +6,7 @@
 
 .title {
    font-size: 10vh;
-   color: var(--text-primary);
+   color:rgb(255, 255, 255);
    font-family: "Inter", sans-serif;
    text-align: center;
    text-transform: uppercase;
@@ -14,7 +14,8 @@
    margin-top: 30vh;
    margin-bottom: 5vh;
    transition: 0.35s ease;
-   text-shadow: 2px 4px 6px rgb(0, 0, 0, 0.2);
+   text-shadow: 2px 4px 6px rgb(191, 185, 255);
+   
 }
 
 .title:hover {
@@ -27,11 +28,12 @@
       position: relative;
       top: -10vw;
       font-size: 10vw;
-      color: var(--text-primary);
+      color:white;
       font-family: "Inter", sans-serif;
       text-align: center;
       text-transform: uppercase;
       border-radius: 0px 0px 5px 5px;
+      
    }
 }
 
@@ -48,23 +50,25 @@
    height: 5vh;
    font-family: "Poppins", sans-serif;
    font-size: 16px;
-   box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.2);
-   background: var(--background-input);
+   box-shadow: 0 0 15px 2px rgb(0, 110, 166);
+   background:rgb(255, 255, 255);
    -webkit-backdrop-filter: var(--backdrop-filter);
    backdrop-filter: var(--backdrop-filter);
+   
 }
 
 input {
    padding: 20px;
    width: 550px;
    border-radius: 5px;
-   background: var(--background-column);
+   background:royalblue;
    text-align: center;
    font-size: 24px;
    border: none;
    outline: none;
-   color: var(--text-primary);
+   color:rgb(0, 0, 0);
    transition: 0.4s;
+   text-shadow: rgb(0, 132, 139)
 }
 
 #particles-js {
@@ -90,9 +94,11 @@ input {
 }
 
 #splash {
-   color: var(--text-dark);
+   color:white;
    margin-bottom: 1em;
    margin-top: -2em;
    padding: 0;
-   font-family: "Poppins", sans-serif;
+   font-family: "Anton", sans-serif;
+   font-size: 15px;
+   position: bottom
 }

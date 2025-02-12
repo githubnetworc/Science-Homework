@@ -1,3 +1,4 @@
+
 let inFrame;
 
 try {
@@ -109,8 +110,8 @@ document.addEventListener("DOMContentLoaded", event => {
         line_linked: {
           enable: false,
           distance: 150,
-          color: "#ffffff",
-          opacity: 0.4,
+          color: "#ff0000",
+          opacity: 1,
           width: 1,
         },
         move: {
@@ -174,17 +175,20 @@ document.addEventListener("DOMContentLoaded", event => {
 });
 // Splash texts
 const SplashT = [
-  "Over 8 Million Users since 2023",
-  "Fastest growing proxy server",
-  "Made by xBubbo",
-  "Check out discord.gg/interstellar :)",
-  "Thanks for using the site",
-  "Follow us on Tiktok (@useinterstellar)",
-  "Subscribe to us on YouTube (@unblocking)",
-  "Subscribe to my Youtube (@xbubbo)",
-  "Check out the settings page",
-  "Check out our Patreon (https://www.patreon.com/gointerstellar)",
-];
+  "SO WOW",
+  "Buy Stacks of Snacks from Snack Shack Without Giving Your Piggy Bank a Smack.",
+  "What Are You Doing? Science Homework.",
+  "Send Me an Email to Get a Quote or Advertizement Today!",
+  "Drink Water.-Devin Norris",
+  "Never Gonna...",
+  "Stop Emailing Me That the Site is Down, I Try My Best!",
+  "Subscribe to my Youtube (@A_Dr.Pepper).",
+  "Check Out the Settings Page and Set a Panic Key.",
+  "You Get What You Get, and You Don't Throw a Fit.-Colsen Gable",
+  "Soo Amazing-Jaydan Murphy",
+  "Why So Serious?-Jaxon Hale ",
+];  
+
 
 let SplashI = Math.floor(Math.random() * SplashT.length);
 const SplashE = document.getElementById("splash");
@@ -200,19 +204,7 @@ SplashE.addEventListener("click", US);
 // Random URL
 function getRandomUrl() {
   const randomUrls = [
-    "https://kahoot.it",
     "https://classroom.google.com",
-    "https://drive.google.com",
-    "https://google.com",
-    "https://docs.google.com",
-    "https://slides.google.com",
-    "https://www.nasa.gov",
-    "https://blooket.com",
-    "https://clever.com",
-    "https://edpuzzle.com",
-    "https://khanacademy.org",
-    "https://wikipedia.org",
-    "https://dictionary.com",
   ];
   return randomUrls[randRange(0, randomUrls.length)];
 }

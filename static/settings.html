@@ -24,8 +24,7 @@
         <div class="settings-card">
           <h3>About:Blank</h3>
           <p>
-            Cloak the site in an about:blank page and toggle about:blank on
-            startup (enabled by default)
+            Cloak the Site in an "about:blank" Page so Nobody Can See What You're on and Give it Away.
           </p>
           <div id="ab-settings">
             <div id="ab-settings-container">
@@ -45,9 +44,10 @@
         <div class="settings-card">
           <h3>Set Panic Key</h3>
           <p>
-            Quick open another site with one press. Used for redirects when
-            about:blank is opened. For multiple key strokes separate them with a
-            comma. Ex. "A,B,C"
+            Panic Key Automatically Switches the Tab Into a Different site of Your Choosing when a 
+            certain key is pressed. It is Set to Google Classroom at Default.To Prevent Accedental Presses,
+            Seperate Letters With a Comma.(Ex: G,O) When a Combination is Set,The Keys have to be Pressed 
+            in the Right order before the Tab Will Switch Over.
           </p>
           <input
             type="text"
@@ -70,89 +70,16 @@
 <h3>&#84;&#97;&#98;&#32;&#67;&#108;&#111;&#97;&#107;&#101;&#114;</h3>
           <p>Change the title and icon of the page.</p>
           <select id="dropdown" onchange="handleDropdownChange(this)">
-            <option value="Classroom">Default</option>
-            <option value="Clever">Clever</option>
+            <option value="Default">Science Homework</option>
             <option value="Canvas">Canvas</option>
-            <option value="Edpuzzle">Edpuzzle</option>
             <option value="Google">Google</option>
-            <option value="Google Meet">Google Meet</option>
             <option value="Classroom">Google Classroom</option>
             <option value="Drive">Google Drive</option>
             <option value="Google Docs">Google Docs</option>
             <option value="Google Slides">Google Slides</option>
             <option value="Gmail">Gmail</option>
-            <option value="Khan">Khan Academy</option>
-            <option value="Campus">Infinite Campus</option>
-            <option value="IXL">IXL</option>
-            <option value="LinkIt">LinkIt!</option>
-            <option value="Schoology">Schoology</option>
-            <option value="i-Ready Math">i-Ready Math</option>
-            <option value="i-Ready Reading">i-Ready Reading</option>
-            <option value="ClassLink Login">ClassLink Login</option>
-            <option value="Wikipedia">Wikipedia</option>
-            <option value="Britannica">Britannica</option>
-            <option value="Ducksters">Ducksters</option>
-            <option value="Minga">Minga</option>
-            <option value="i-Ready Learning Games">
-              i-Ready Learning Games
-            </option>
-            <option value="NoRedInk Home">NoRedInk Home</option>
-            <option value="Newsela Binder">Newsela Binder</option>
-            <option value="Newsela Assignments">Newsela Assignments</option>
-            <option value="Newsela Home">Newsela Home</option>
-            <option value="PowerSchool Sign In">PowerSchool Sign In</option>
-            <option value="PowerSchool Grades and Attendance">
-              PowerSchool Grades and Attendance
-            </option>
-            <option value="PowerSchool Teacher Comments">
-              PowerSchool Teacher Comments
-            </option>
-            <option value="PowerSchool Standards Grades">
-              PowerSchool Standards Grades
-            </option>
-            <option value="PowerSchool Attendance">
-              PowerSchool Attendance
-            </option>
-            <option value="Nearpod">Nearpod</option>
-            <option value="StudentVUE">StudentVUE</option>
-            <option value="Quizlet Home">Quizlet Home</option>
-            <option value="Google Forms Locked Mode">
-              Google Forms - Locked Mode
-            </option>
-            <option value="DeltaMath">DeltaMath</option>
-            <option value="Kami">Kami</option>
-            <option value="GoGuardian Admin Restricted">
-              GoGuardian Admin Block
-            </option>
-            <option value="GoGuardian Teacher Block">
-              GoGuardian Teacher Block
-            </option>
-            <option value="World History Encyclopedia">
-              World History Encyclopedia
-            </option>
-            <option value="Big Ideas Math">Big Ideas Math</option>
-            <option value="Big Ideas Math Assignment Player">
-              Big Ideas Math Assignment Player
-            </option>
-            <option value="Savvas Realize">Savvas Realize</option>
-            <option value="SmartPass">SmartPass</option>
-            <option value="World Book Online - Super Home">
-              World Book Online (Super Home)
-            </option>
-            <option value="World Book Online - Student">
-              World Book Online (Student)
-            </option>
-            <option value="World Book Online - Timelines">
-              World Book Online (Timelines)
-            </option>
-            <option value="Naviance">Naviance Student</option>
-            <option value="PBS Learning Media">PBS Learning Media</option>
-            <option value="PBS Learning Media Student Home">
-              PBS Learning Media Student Home
-            </option>
-            <option value="Dictionary">Dictionary.com</option>
-            <option value="Thesaurus">Thesaurus.com</option>
           </select>
+         
           <div id="buttonLayer">
             <button
               class="key-button"
@@ -166,9 +93,9 @@
               value="Reset"
               onclick="ResetCustomCloak(); redirectToMainDomain();"
             >
-              Reset Cloak
-            </button>
-          </div>
+              Reset Cloak"
+        </div>
+
         </div>
         <div class="settings-card">
           <h3>Set Background Image</h3>
@@ -176,86 +103,16 @@
           <input class="key-form" type="text" id="background-input" placeholder="Enter image URL" />
           <button class="key-button" id="save-button">Save</button>
           <button class="key-button" id="reset-button">Reset</button>
-        </div>
-        <div class="settings-card">
-          <h3>Search Engine</h3>
-          <p>Change the search engine when searching.</p>
-          <select title="engine" id="engine" onchange="EngineChange(this)">
-            <option value="Google">Google (Default)</option>
-            <option value="Bing">Bing</option>
-            <option value="DuckDuckGo">DuckDuckGo</option>
-            <option value="Qwant">Qwant</option>
-            <option value="Startpage">Startpage</option>
-            <option value="SearchEncrypt">SearchEncrypt</option>
-            <option value="Ecosia">Ecosia</option>
-          </select>
-          <input
-            class="key-form"
-            type="text"
-            id="engine-form"
-            placeholder="Change Search Engine"
-            name="engine"
-          />
-          <button class="key-button" value="Save" onclick="SaveEngine();">
-            Save
-          </button>
-        </div>
-        <div class="settings-card">
-          <h3>Choose your <an>Pro</an>xy</h3>
-          <p>
-            Ultra<an>vio</an>let is the main <an>pro</an>xy, but Dynamic is
-            faster and supports more sites. (Dynamic is still in beta, so expect
-            some bugs.)
-          </p>
-          <select id="pChange">
-            <option value="uv">Ultraviolet (Default)</option>
-            <option value="dy">Dynamic (Doesn't work in about:blank)</option>
-          </select>
-        </div>
-        <div class="settings-card">
-          <h3>Particles</h3>
-          <p>
-            Add the particles that are from the previous version to the new
-            site.
-          </p>
-          <label class="switch">
-            <input type="checkbox" class="slider-checkbox" id="2" />
-            <span class="slider-round"></span>
-          </label>
-        </div>
-        <div class="settings-card">
-          <h3>Themes!</h3>
-          <p>Pick from a variety of themes to customize your experience.</p>
-          <select
-            placeholder="Solid Color Themes"
-            id="dropdown"
-            class="td"
-            onchange="themeChange(this)"
-          >
-            <option disabled selected>Solid Color Themes</option>
-            <option value="d">Default</option>
-            <option value="Inverted">Inverted</option>
-            <option value="sky">Sky</option>
-            <option disabled selected>Catppuccin Themes</option>
-            <option value="catppuccinMocha">Mocha</option>
-            <option value="catppuccinMacchiato">Macchiato</option>
-            <option value="catppuccinFrappe">Frappe</option>
-            <option value="catppuccinLatte">Latte</option>
-            <option disabled selected>Custom Themes</option>
-          </select>
+
         </div>
         <div class="settings-card">
           <h3>Information</h3>
-          <p>Version: v5.2.6</p>
-          <p id="last-updated">Last Updated: October 2nd, 2024</p>
+          <p>Made by: Kohen Glenn</p>
+          <p>The Original Interstellar, but Reimagined.</p>
           <p>
-            Questions? Join our
-            <a href="https://discord.gg/interstellar">Discord community</a>,
-            email us at
-            <a href="mailto:hello@gointerstellar.app"
-              >hello@gointerstellar.app</a
-            >, or
-            <a href="https://docs.gointerstellar.app/faq">check our FAQ</a>!
+            For Questions or Bug Reports, Email Me at
+            <a href="mailto:kglenn1@wostudent.net"
+              >kglenn1@wostudent.net</a
           </p>
         </div>
       </div>
