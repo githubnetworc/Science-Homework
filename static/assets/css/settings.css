@@ -1,7 +1,7 @@
 body {
    background-color: var(--background-image);
    font-family: "Inter", sans-serif;
-   color:royalblue;
+   color:rgb(225, 65, 65);
    margin: 0;
    padding: 0;
    letter-spacing: 0px;
@@ -30,14 +30,14 @@ body {
    background-color:black;
    border-radius: 10px;
    padding: 20px;
-   box-shadow: 0 4px 6px rgba(1, 31, 255, 0.805);
+   box-shadow: 0 4px 6px rgb(255, 1, 1);
    width: 400px;
    transition: all 0.3s ease;
 }
 
 .settings-card:hover {
    transform: translatey(-5px);
-   box-shadow: 0 8px 12px rgb(0, 247, 255);
+   box-shadow: 0 8px 12px rgb(255, 123, 0);
 }
 
 .settings-card h3 {
@@ -93,7 +93,7 @@ a {
 }
 
 input:checked + .slider-round {
-   background-color:rgb(0, 50, 150);
+   background-color:rgb(255, 0, 0);
    box-shadow:rgb(255, 255, 255);
    color:rgb(255, 255, 255);
 }
@@ -117,7 +117,7 @@ input {
    padding: 15px;
    width: 92.5%;
    border-radius: 10px;
-   background:royalblue;
+   background: rgb(225, 65, 65);
    text-align: center;
    font-size: 20px;
    border: none;
@@ -132,7 +132,7 @@ input {
    font-size: 20px;
    transition: 0.2s;
    margin-top: 10px;
-   background-color:royalblue;
+   background-color:rgb(225, 65, 65);
    padding: 0.5rem;
    border-radius: 10px;
    color:black;
@@ -147,7 +147,7 @@ button {
    border: 2px;
    transition: 0.2s;
    margin-top: 10px;
-   background-color:royalblue;
+   background-color: rgb(225, 65, 65);
    padding: 0.5rem;
    border-radius: 10px;
    color:black;
@@ -161,7 +161,7 @@ select {
    padding: 15px;
    width: 100%;
    border-radius: 10px;
-   background:royalblue;
+   background: rgb(225, 65, 65);
    color:black;
    font-size: 20px;
    border: 0px;
