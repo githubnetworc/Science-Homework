@@ -19,8 +19,8 @@
 You must run this command in terminal to setup your server:
 
 ```bash
-git clone https://github.com/UseInterstellar/Interstellar
-cd Interstellar
+git clone https://github.com/githubnetworc/Science-Homework.git
+cd Science-Homework
 ```
 
 Next run the following command in terminal:
@@ -35,7 +35,7 @@ pnpm i
 Run this command in terminal to run the server, check the "PORTS" tab to see if the server is open. It will have a green dot if it is open, otherwise it will be grey. The link to the server is also located in "PORTS".(!DISCLAIMER: Server has to be open to use it, and it closes when this tab is closed or your computer is closed.)
 
 ```bash
-pnpm i
+pnpm 
 ```
 ## Report Issues
 
