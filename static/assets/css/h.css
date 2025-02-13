@@ -14,13 +14,14 @@
    margin-top: 30vh;
    margin-bottom: 5vh;
    transition: 0.35s ease;
-   text-shadow: 2px 4px 6px rgb(191, 185, 255);
+   text-shadow: 2px 4px 6px, rgb(255, 0, 0);
    
 }
 
 .title:hover {
    transform: translateY(-5%) scale(1.03);
    font-weight: 800;
+   text-shadow:rgb(255, 153, 0);
 }
 
 @media (orientation: portrait) {
@@ -50,7 +51,7 @@
    height: 5vh;
    font-family: "Poppins", sans-serif;
    font-size: 16px;
-   box-shadow: 0 0 15px 2px rgb(0, 110, 166);
+   box-shadow: 0 0 15px 2px rgb(255, 2, 2);
    background:rgb(255, 255, 255);
    -webkit-backdrop-filter: var(--backdrop-filter);
    backdrop-filter: var(--backdrop-filter);
@@ -94,7 +95,7 @@ input {
 }
 
 #splash {
-   color:white;
+   color:rgb(255, 0, 0);
    margin-bottom: 1em;
    margin-top: -2em;
    padding: 0;
