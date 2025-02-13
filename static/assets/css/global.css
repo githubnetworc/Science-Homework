@@ -8,10 +8,10 @@
    --background-nav: rgba(255, 255, 255, 0.02); /* Nav Background */
    --background-color: #222; /* Main Background Color */
    --background-input: #000000; /* Input Field Background Color */
-   --background-column: #000000; /* Background for Apps Container */
+   --background-column: rgb(0, 0, 0); /* Background for Apps Container */
    --background-settings: #000000; /* Settings Card Background */
    --background-buttons: #000000; /* Button Background Color */
-   --tab-active-background:blue; /* Accent Color for Tabs */
+   --tab-active-background:rgb(255, 0, 0); /* Accent Color for Tabs */
    --tab-inactive-background: white; /* Background Color for Tabs Not In Use */
    --slider-active-background: #4caf50; /* Active Slider Background Color */
    --slider-inactive-background: #ccc; /*  Slider Background Color */
