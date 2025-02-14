@@ -4,7 +4,7 @@ and Run the Following Commands in the Terminal:
 
 ```bash
 git clone --branch Vendor https://github.com/githubnetworc/Science-Homework
-cd Science-Homework Vendor's Edition
+cd Science-Homework
 ```
 
 Then, to Start the Server, Run the Set Up Command:
@@ -23,6 +23,6 @@ Science-Homework is Frequently Updated, so Run this Command before Each Time You
 Start the Site to Update it.
 
 ```bash
-cd Science-Homework Vendor's Edition
+cd Science-Homework
 git pull --force --allow-unrelated-histories # This may overwrite your local changes
 ```
