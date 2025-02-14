@@ -193,7 +193,7 @@ p {
 #add-tab {
    padding: 0.5rem;
    cursor: pointer;
-   background-color:white;
+   background-color:red;
    color:var(--text-dark);
    border: none;
    border-radius: 5px;
@@ -202,7 +202,7 @@ p {
 }
 
 #add-tab:hover {
-   background-color:rgb(255, 0, 0);
+   background-color:red orange;
    color:var(--text-primary);
 }
 
@@ -226,12 +226,12 @@ li {
 }
 
 li.active {
-   background-color: var(--tab-active-background);
+   background-color:red orange;
    color:black;
 }
 
 li:hover {
-   background-color: var(--tab-active-background);
+   background-color:red orange;
    color:white;
 }
 
