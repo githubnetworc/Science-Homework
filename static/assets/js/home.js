@@ -187,6 +187,7 @@ const SplashT = [
   "You Get What You Get, and You Don't Throw a Fit.-Colsen Gable",
   "Soo Amazing-Jaydan Murphy",
   "Why So Serious?-Jaxon Hale ",
+  "New Vendor's Edition!"
 ];  
 
 
